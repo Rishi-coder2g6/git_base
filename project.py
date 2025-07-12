@@ -10,7 +10,7 @@ from watchdog.events import FileSystemEventHandler
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(message)s")
 
 # Define supported file formats
-SUPPORTED_FORMATS = {".mp3", ".wav", ".mp4", ".mkv", ".mov", ".flv", ".aac", ".m4a"}
+SUPPORTED_FORMATS = {".mp3",".mp4"}
 
 # Load Whisper model
 model = whisper.load_model("small") 
